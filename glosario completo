@@ -1,0 +1,256 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyM+P4jXUBPhA6F4zamE864g",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/cristobalgoicg-ops/Capitulos/blob/main/glosario%20completo\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [],
+      "metadata": {
+        "id": "spyksc8OeJuC"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "#Glosario\n",
+        "\n",
+        "1. División entera (`//`)\n",
+        "\n",
+        ">es la division entre dos numeros en donde el rsultado es es siemrpe entero, por tanto se redondea al entero menor\n",
+        "---\n",
+        "2. Expresión\n",
+        "\n",
+        ">una coleccion de operadores y numeros.\n",
+        "---\n",
+        "3. Valor\n",
+        "\n",
+        ">resultado de una expresión\n",
+        "---\n",
+        "4. Funcion `len`()\n",
+        "\n",
+        ">Cuenta la cantidad de caracteres que tiene un string (contando el espacio) si no pongo los parentesis tengo un error de sintaxis (syntax)\n",
+        "---\n",
+        "5. debugging\n",
+        "\n",
+        ">porceso de rastrear y corregir errores\n",
+        "---\n",
+        "**Tipos de error**\n",
+        "---\n",
+        "6. Error de sintaxis (SyntaxError)\n",
+        "\n",
+        ">ocurre cuando llamo una funcion y cometo un error en su escritura\n",
+        "ejemplo: abs 43, es un error pues no puse los parentesis en el (42). tambien ocurre cuando llamo a una variable con un numero al principio, y cuando uso una Keyword\n",
+        "\n",
+        "---\n",
+        "7. Error de tipo (TypeError)\n",
+        "\n",
+        "> ocurre cuando se ejecuta una operacion que no esta asociada a un tipo. (ejemplo: dividir un string pues con un string solo puedo * y +), tambien ocurre cuando pongo mas o menos argumentos de los solicitados (por ejemplo: `math.pow(2)`)\n",
+        "---\n",
+        "8. Error de nombre (NameError)\n",
+        "\n",
+        "> ocurre cuando uso un nombre o variable el cual nucna fue definido, si, por ejemplo to hago:\n",
+        "saludar = hola\n",
+        "print(saludo)\n",
+        "te va a dar TypeError, ya que saludo no fue definido. OJO: es comun cometer NameError en el caso de escribir mal el nombre o variable\n",
+        ">Tambien ocurre cuando utilizo una variable local fuera de la funcion\n",
+        "---\n",
+        "9. Error semantico (SemanticError)\n",
+        "\n",
+        ">Este ocurre cuando el programa se ejecuta poer no da el resultado esperado. ejemplo: espero que 4+5*2 de 18, pero al ejecutarlo da 14 ya que no estan los parentesis\n",
+        "---\n",
+        "10. Error de rutina (RutineError)\n",
+        "\n",
+        "> el programa corre pero se detiene por un roblema durante la ejecucion. Incluye `TypeError`, `NameError`, etc. | `'126' / 3` |\n",
+        "---\n",
+        ">termino errores\n",
+        "---\n",
+        "10. Sentencia de asignación o Assignment statement\n",
+        "\n",
+        "\n",
+        ">Intruccion que guarda un valor detro de una variable\n",
+        "Ejemplo: `numero = 10`\n",
+        "No muestra nada en pantalla, pero tiene el efecto de crear la variable.\n",
+        "---\n",
+        "11. Nombramiento de una variable\n",
+        "\n",
+        ">No puede empezar por numero\n",
+        "\n",
+        ">no puede ser una Keyword (ya las explicare)\n",
+        "\n",
+        ">No puede contener otra puntuacion (como !) o espacios\n",
+        "---\n",
+        "12. Keyword\n",
+        "\n",
+        ">Es una palabra con un significado especial dentro del programa, esta reservada por python para darle estrucutra a un programa. algunos ejemplos son: `if` , `import`, `true` ,  `def`, etc...\n",
+        "\n",
+        ">Si yo utilizo una Keyword para rear una variable tal que asi: if = 18, porducirá un SyntaxError\n",
+        "---\n",
+        "13. Módulo\n",
+        "\n",
+        ">Un modulo es una palabra que se importa, la cual contiene funciones y herramientas ya hechas. por ejemplo: math, el modulo math trae ya funciones para utilizar\n",
+        "---\n",
+        "14. Dot operator o operador punto `.`\n",
+        "\n",
+        ">Sirve para acceder a una funcion que etsa dentro de un modulo\n",
+        "Ejemplos: `math.sqrt()` , `math.pow()` , `math.pi` .\n",
+        "---\n",
+        "15. Argumento: Los valores que le pasas a una función son sus **argumentos**. Si entregas muy pocos, muy muchos, o del tipo incorrecto, obtienes un `TypeError`. entendemos commo funciones: `len` , `abs`, `round` Etc...\n",
+        "\n",
+        "---\n",
+        "16. Expresion VS Sentencia\n",
+        "\n",
+        ">Expresion: Tiene un valor numerico, Ejemplos: `math.sqrt(25)` , n + 2\n",
+        "\n",
+        ">Sentencia: tiene un efecto en el programa, no necesariamente un valor (`n = 17`, `import math`).\n",
+        "---\n",
+        "17. Mostrar varios valores\n",
+        "\n",
+        ">Hay veces que teno caris valores, por ejemplo n + 2 y n+ 3, y sabemos que cuando ocurre eso solo se mostrara el valor de n + 3, para mostrar ambos utilizamos el `print`\n",
+        "---\n",
+        "18. Import statement\n",
+        "\n",
+        ">instrucción que sirve para importar un módulo y poder usar las funciones o variables que contiene. por ejemplo `import math`. basicamente importa un modulo\n",
+        "---\n",
+        "19. Diagrama de estado\n",
+        "\n",
+        "> Representación gráfica de variables y sus valores.\n",
+        "ejemplo:\n",
+        "\n",
+        "> x = 3\n",
+        "\n",
+        "> x ---> 3\n",
+        "---\n",
+        "20. Parametro\n",
+        "\n",
+        "> es el nombre dentro de la funcion. por ejemplo:\n",
+        "\n",
+        "> def print_twice(string)\n",
+        "      print(string)\n",
+        "      print(string)\n",
+        "\n",
+        ">string es el parametro\n",
+        "---\n",
+        "21. Argumento:\n",
+        "\n",
+        "> El argumento seria el valor que se le entrega a la funcion al llamarla\n",
+        "ejemplo:\n",
+        "la llamo como: print_twice(UC)\n",
+        "\n",
+        ">UC seria el Argumento, ya que imprimo dos veces UC al llamar la funcion\n",
+        "---\n",
+        "22. Definir una funcion:\n",
+        "\n",
+        ">Sentencia que crea una función\n",
+        "\n",
+        "> cuando yo defino una funcion, significa que va a ocurrir un proceso cuando yo llame una funcion especidfica, por ejemplo:\n",
+        "\n",
+        ">OJO: tiene que tener `:` en la linea del def (llamada header)\n"
+      ],
+      "metadata": {
+        "id": "bRgYOARmeHUf"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "import math\n",
+        "def area_del_circulo(radio):\n",
+        "    print(math.pi*radio**2)"
+      ],
+      "metadata": {
+        "id": "DpZ_EBctGT8M"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "area_del_circulo(4)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "CZ0GlMik2phI",
+        "outputId": "50c73132-ba5c-4c0e-9507-d52fc60ef6a2"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "50.26548245743669\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "23. Funciones que llaman a otras funciones\n",
+        "\n",
+        ">Una función puede usar otra dentro de su cuerpo. Esto evita repetir código.\n",
+        "---\n",
+        "24. repeticion con for\n",
+        "\n",
+        ">`for variable in range(n):` repite el cuerpo `n` veces, con `variable` tomando los valores `0, 1, ..., n-1`.\n",
+        "---\n",
+        "25. Variables locales\n",
+        "\n",
+        "> cuando una variable se crea dentro de una funcion es una **variable local**, que significa esto, que solo sirve dentro de la funcion, si es que la utilizamos fuera de nos va a dar un NameError\n",
+        "---\n",
+        "26. Frame\n",
+        "\n",
+        "> es una caja dentro del stack diagram (mas abajo lo explicare) que representa una funcion y sus variables locales/parametros\n",
+        "---\n",
+        "27. Stack diagram\n",
+        "\n",
+        "> Un stack diagram es el conjunto de todo los frame del programa\n",
+        "\n",
+        "> existe un frame que es `_main_` , la cual es el frame principal del programa.\n",
+        "---\n",
+        "28. Traceback\n",
+        "\n",
+        "> Lista de funciones en ejecuccion que se muestra cuando hay un error. nos muestra que funcion causa el error y donde esta el error en si"
+      ],
+      "metadata": {
+        "id": "_ZTYtO5F3Ddf"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "lGdjQpRJ5Vos"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
